@@ -15,9 +15,9 @@ echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echobold "                              UPDATING WEBSITE"
 echo "                                    version 1.0"
 echo ""
-echoitalic "* Written by  : <YOUR-NAME>"
-echoitalic "* E-mail      : your@email.com"
-echoitalic "* Last update : <fill-in-a-date>"
+echoitalic "* Written by  : Sebastian"
+echoitalic "* E-mail      : "
+echoitalic "* Last update : Today"
 echoitalic "* Version     : v1.0"
 echo ""
 echoitalic "* Description : This script will set some directories, execute some things, "
@@ -30,8 +30,8 @@ echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "The following directories are set."
 
-ROOT="/Users/<username>/website"
-WEBSITE="${ROOT}/mywebsite-hugo"
+ROOT="/Users/sebastianmartinez/Dropbox/0. UoG/Website/buendato/buendato"
+WEBSITE="${ROOT}/buendato"
 WEBSITEPUBLIC="${WEBSITE}/public"
 
 echo "Root directory____________ ${ROOT}"
@@ -59,13 +59,13 @@ cp -v ${ROOT}/LICENSE ${WEBSITEPUBLIC}/LICENSE
 cp -v ${ROOT}/README.md ${WEBSITEPUBLIC}/README.md
 ### If you want to re-direct your GitHub page to another domain, you'll have to make a
 ### 'CNAME' file.
-echo "http://www.<some-domain>.com" > ${WEBSITEPUBLIC}/CNAME
+echo "buendato.org" > ${WEBSITEPUBLIC}/CNAME
 
 echo "* Going to 'public' folder..."
 
-cd ${ROOT}/<user-name>.github.io
+cd ${ROOT}/martinezsebastian.github.io
 
-cp -afv ${ROOT}/mywebsite-hugo/public/* .
+cp -afv ${ROOT}/buendato/public/* .
 
 echo "* Add changes to git..."
 
