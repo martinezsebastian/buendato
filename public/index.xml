@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compumundo Hipermegared</title>
+    <link>https://buendato.org/</link>
+    <description>Recent content on Compumundo Hipermegared</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://buendato.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
