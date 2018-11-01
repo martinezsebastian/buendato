@@ -3,6 +3,7 @@ title = "Compumundo Hipermegared"
 theme = "s_theme"
 themesDir = "themes"
 languageCode = "en-us"
+publishDir = "docs"
 
 
 [params]
