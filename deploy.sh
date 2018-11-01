@@ -30,7 +30,7 @@ echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "The following directories are set."
 
-ROOT="/Users/sebastianmartinez/Dropbox/0.\ UoG/Website/buendato"
+ROOT="/Users/sebastianmartinez/Dropbox/0. "UoG/Website/buendato
 WEBSITE="${ROOT}/buendato"
 WEBSITEPUBLIC="${WEBSITE}/public"
 
