@@ -1,0 +1,23 @@
+baseURL = "https://buendato.org/"
+title = "Compumundo Hipermegared"
+theme = "s_theme"
+themesDir = "themes"
+languageCode = "en-us"
+
+
+[params]
+  header_image = "resources/cmhmr.jpg"
+  SEOTitle = "Buen Dato"
+  slogan = "Bueno pa ti, bueno pa mi"
+  
+  
+  
+
+  image_404 = "resources/404-bg.jpg"
+  title_404 = "Go back, nothing to see here."
+  
+  
+  [[menu.main]]
+        name = "Home"
+        url = "#about"
+        weight = 1
